@@ -87,6 +87,13 @@ header {
     background: transparent !important;
 }
 
+/* Keep Streamlit sidebar toggle visible */
+[data-testid="stSidebarCollapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
 /* Custom Top Navigation / Title Banner */
 .topbar {
     background: var(--navy-surface);
