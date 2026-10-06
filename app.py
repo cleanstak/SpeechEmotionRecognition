@@ -87,11 +87,24 @@ header {
     background: transparent !important;
 }
 
-/* Keep Streamlit sidebar toggle visible */
+/* Keep Streamlit sidebar toggle visible in both browser themes */
 [data-testid="stSidebarCollapsedControl"] {
     display: flex !important;
     visibility: visible !important;
     opacity: 1 !important;
+    z-index: 999999 !important;
+}
+
+[data-testid="stSidebarCollapsedControl"] button {
+    color: #0EA5E9 !important;
+    background-color: #061525 !important;
+    border: 1px solid #17384f !important;
+    border-radius: 6px !important;
+}
+
+[data-testid="stSidebarCollapsedControl"] button svg {
+    color: #0EA5E9 !important;
+    fill: #0EA5E9 !important;
 }
 
 /* Custom Top Navigation / Title Banner */
