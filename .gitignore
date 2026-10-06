@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# RAVDESS raw dataset - DO NOT upload
+data/raw/
+
+# Generated/processed data
+data/processed/
+
+# Local audio recordings
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# Model checkpoints
+models/*.pth
+models/*.pt
+
+# Python/package caches
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

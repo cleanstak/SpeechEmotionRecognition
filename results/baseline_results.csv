@@ -1,0 +1,4 @@
+model,parameters,accuracy,macro_precision,macro_recall,macro_f1
+CNN,101636,0.5089,0.5582,0.5156,0.466
+RNN,63300,0.2857,0.0714,0.25,0.1111
+LSTM,227652,0.3571,0.3727,0.4375,0.324
