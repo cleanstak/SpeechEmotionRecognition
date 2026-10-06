@@ -108,9 +108,16 @@ header {
 /* Keep the icon visible */
 [data-testid="stSidebarCollapsedControl"] button svg,
 [data-testid="stSidebarCollapseButton"] svg {
-    color: #0EA5E9 !important;
-    fill: #0EA5E9 !important;
-    stroke: #0EA5E9 !important;
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stSidebarCollapsedControl"] button svg *,
+[data-testid="stSidebarCollapseButton"] svg * {
+    color: #FFFFFF !important;
+    fill: #FFFFFF !important;
+    stroke: #FFFFFF !important;
+    opacity: 1 !important;
 }
 
 
