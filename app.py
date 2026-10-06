@@ -909,10 +909,14 @@ def render_team():
     )
 
     team_members = [
-        {"name": "Student Name 1", "matric": "ECE/2021/001", "role": "Project Lead & ML Architecture"},
-        {"name": "Student Name 2", "matric": "ECE/2021/002", "role": "Signal Processing & Feature Extraction"},
-        {"name": "Student Name 3", "matric": "ECE/2021/003", "role": "UI/UX & System Integration"},
-        {"name": "Student Name 4", "matric": "ECE/2021/004", "role": "Model Evaluation & Testing"},
+        {"name": "Akpovero Godsent Oghenevwairhe", "matric": "U2021/3020031", "role": "Group Leader"},
+        {"name": "Olakjo Daniel Kayode", "matric": "U2020/3020051", "role": "Project Group Member"},
+        {"name": "Ugoagha Somtochukwu Victor", "matric": "U2021/3020069", "role": "Project Group Member"},
+        {"name": "Akinlolu Olamide Dominion", "matric": "U2020/3020016", "role": "Project Group Member"},
+        {"name": "Ebosetale Oselene Caleb", "matric": "U2021/3020063", "role": "Project Group Member"},
+        {"name": "Shittu Oluwalayomi Mfon-Obong", "matric": "U2020/3020056", "role": "Project Group Member"},
+        {"name": "Richard Isaiah", "matric": "U2020/3020027", "role": "Project Group Member"},
+        {"name": "Ordu Thankgod Meyi", "matric": "U2021/3020045", "role": "Project Group Member"},
     ]
 
     cols = st.columns(2, gap="large")
