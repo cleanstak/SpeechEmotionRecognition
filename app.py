@@ -87,25 +87,32 @@ header {
     background: transparent !important;
 }
 
-/* Keep Streamlit sidebar toggle visible in both browser themes */
-[data-testid="stSidebarCollapsedControl"] {
+/* Keep Streamlit sidebar toggle visible in all browser themes and Streamlit versions */
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="stSidebarCollapseButton"] {
     display: flex !important;
     visibility: visible !important;
     opacity: 1 !important;
     z-index: 999999 !important;
 }
 
-[data-testid="stSidebarCollapsedControl"] button {
+/* Style the sidebar toggle button */
+[data-testid="stSidebarCollapsedControl"] button,
+[data-testid="stSidebarCollapseButton"] {
     color: #0EA5E9 !important;
     background-color: #061525 !important;
     border: 1px solid #17384f !important;
     border-radius: 6px !important;
 }
 
-[data-testid="stSidebarCollapsedControl"] button svg {
+/* Keep the icon visible */
+[data-testid="stSidebarCollapsedControl"] button svg,
+[data-testid="stSidebarCollapseButton"] svg {
     color: #0EA5E9 !important;
     fill: #0EA5E9 !important;
+    stroke: #0EA5E9 !important;
 }
+
 
 /* Custom Top Navigation / Title Banner */
 .topbar {
